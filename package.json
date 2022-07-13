@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@redux-devtools/extension": "^3.2.2",
     "next": "12.2.0",
+    "next-redux-wrapper": "^7.0.5",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
     "three": "^0.142.0"
   },
   "devDependencies": {

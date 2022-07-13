@@ -8,7 +8,7 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 export default function Home() {
   const scene = new THREE.Scene();
-  const controls = new OrbitControls( camera, renderer.domElement ); // example OrbitControls Components
+  //const controls = new OrbitControls( camera, renderer.domElement ); // example OrbitControls Components
   return (
     <div>
     </div>
