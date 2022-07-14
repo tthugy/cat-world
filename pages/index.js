@@ -11,6 +11,7 @@ export default function Home() {
   //const controls = new OrbitControls( camera, renderer.domElement ); // example OrbitControls Components
   return (
     <div>
+      <p className={styles.hi}>Hi-cat 🐱</p>
     </div>
   )
 }
