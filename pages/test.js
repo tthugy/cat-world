@@ -10,10 +10,12 @@ import useStore from './store.js'
 export default function Test() {
   const scene = new THREE.Scene();
 
+  const selected = useStore((state) => state.selectAnimal);
+
   return (
     <div>
       <p className={styles.hi}>This is test page!</p>
-      <p className={styles.hi}>You selected... {useStore((state) => state.selectAnimal)}</p>
+      <p className={styles.hi}>You selected... {selected === "dog" ? "🐶" : "🐱" }</p>
       <Link href="/">
             <p className={styles.hi}>Go Home</p>
       </Link>
