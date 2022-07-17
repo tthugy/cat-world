@@ -16,8 +16,8 @@ export default function Home() {
     <div>
       <p className={styles.hi}>Hi-cat? Are you...</p>
       <div className={styles.select}>
-        <a onClick={useStore((state) => state.toggleIsDark)}>cat🐱</a>
-        <a onClick={useStore((state) => state.toggleIsDark)}>dog🐶</a>
+        <a onClick={useStore((state) => state.selectCat)}>cat🐱</a>
+        <a onClick={useStore((state) => state.selectDog)}>dog🐶</a>
       </div>
     </div>
   )
