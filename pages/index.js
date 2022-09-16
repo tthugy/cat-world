@@ -16,12 +16,6 @@ export default function Home() {
 
   }
 
-  let renderer, scene, camera;
-  let mesh;
-
-  init();
-  animate();
-
   return (
     <></>
   )
