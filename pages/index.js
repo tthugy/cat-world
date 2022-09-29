@@ -11,7 +11,7 @@ class Viewer extends React.Component {
     const height = window.innerHeight - 1;
 
     const scene = new THREE.Scene();
-    const camera = new THREE.PerspectiveCamera(75, width / height, 1, 1000);
+    const camera = new THREE.PerspectiveCamera(90, width / height, 1, 1000);
 
     const renderer = new THREE.WebGLRenderer();
     renderer.setSize(width, height);
@@ -19,7 +19,7 @@ class Viewer extends React.Component {
     this.element.appendChild(renderer.domElement);
 
     const geometry = new THREE.BoxGeometry(1, 1, 1);
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+    const material = new THREE.MeshBasicMaterial({ color: 0x99ff99 });
     const cube = new THREE.Mesh(geometry, material);
     scene.add(cube);
 
@@ -41,7 +41,7 @@ class Viewer extends React.Component {
 
   render() {
     return (
-      <div ref={el => this.element = el} style={{ width: '100%', height: '100%', border: '1px solid red' }} />
+      <div ref={el => this.element = el} style={{ width: '100%', height: '100%', border: '.5px solid red' }} />
     );
   }
 }
