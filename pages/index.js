@@ -34,8 +34,8 @@ class Viewer extends React.Component {
 
   animate = () => {
     this.renderer.render(this.scene, this.camera);
-    this.cube.rotation.x += 0.01;
-    this.cube.rotation.y += 0.01;
+    this.cube.rotation.x += 0.08;
+    this.cube.rotation.y += 0.08;
     requestAnimationFrame(this.animate);
   }
 
