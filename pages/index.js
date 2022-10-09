@@ -9,9 +9,9 @@ function App() {
         <OrbitControls autoRotate={true}/>
         <mesh>
           <ambientLight intensity={1} />
-          <directionalLight position={[-1,0,1]} intensity={1.5} />
-          <boxGeometry args={[1, 1, 1]} />
-          <meshStandardMaterial attach="material" color={0xa3b18a}/>
+          <directionalLight position={[-1,0,1]} intensity={3} />
+          <boxGeometry args={[2, 2, 2]} />
+          <meshStandardMaterial attach="material" color={0xEBA3EE}/>
         </mesh>
       </Canvas>
     </> 
