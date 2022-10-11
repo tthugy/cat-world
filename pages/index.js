@@ -11,7 +11,7 @@ function App() {
           <ambientLight intensity={1} />
           <directionalLight position={[-1,0,1]} intensity={3} />
           <boxGeometry args={[2, 2, 2]} />
-          <meshStandardMaterial attach="material" color={0xEBA3EE}/>
+          <meshStandardMaterial attach="material" color={0x4D354E}/>
         </mesh>
       </Canvas>
     </> 
