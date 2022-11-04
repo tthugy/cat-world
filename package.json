@@ -13,6 +13,7 @@
     "@react-three/fiber": "^8.8.9",
     "@redux-devtools/extension": "^3.2.2",
     "@types/three": "^0.144.0",
+    "google-closure-library": "^20221004.0.0",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",

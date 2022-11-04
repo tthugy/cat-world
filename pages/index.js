@@ -10,7 +10,7 @@ function App() {
         <mesh>
           <ambientLight intensity={1} />
           <directionalLight position={[-1,0,1]} intensity={3} />
-          <boxGeometry args={[2, 2, 2]} />
+          <boxGeometry args={[1, 1, 1]} />
           <meshStandardMaterial attach="material" color={0x4D354E}/>
         </mesh>
       </Canvas>
