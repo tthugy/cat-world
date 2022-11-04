@@ -1,1 +1,1 @@
-3D Cat-World 🐈
+3D Cat-World
