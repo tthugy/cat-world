@@ -41,7 +41,7 @@ class Viewer extends React.Component {
 
   render() {
     return (
-      <div ref={el => this.element = el} style={{ width: '86%', height: '86%', border: '1px solid #e234f0' }} />
+      <div ref={el => this.element = el} style={{ width: '100%', height: '100%', border: '1px solid #e234f0' }} />
     );
   }
 }
