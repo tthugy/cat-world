@@ -43,7 +43,7 @@ class Viewer extends React.Component {
     return (
       <>
       <div ref={el => this.element = el} style={{ width: '100%', height: '100%', border: '1px solid #e234f0' }} />
-      <span>Italy - Milan Day2</span>
+      <span>Italy - Milan Lake Como</span>
       </>
     );
   }
