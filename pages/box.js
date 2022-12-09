@@ -51,6 +51,7 @@ class Viewer extends React.Component {
       <span>Italy - Merano Meran</span>
       <span>Italy - Seceda</span>
       <span>Italy - Venice</span>
+      <span>Germany - Berlin</span>
       </>
     );
   }
