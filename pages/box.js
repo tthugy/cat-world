@@ -65,6 +65,7 @@ class Viewer extends React.Component {
       <span>Prague - Prague2</span>
       <span>Prague - Reduta</span>
       <span>Prague - Prague zoo</span>
+      <span>Prague - Christmas</span>
       </>
     );
   }
