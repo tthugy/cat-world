@@ -43,36 +43,6 @@ class Viewer extends React.Component {
     return (
       <>
       <div ref={el => this.element = el} style={{ width: '100%', height: '100%', border: '1px solid #e234f0' }} />
-      <span>Italy - Barenna Lake Como</span>
-      <span>Italy - Milan Centrale</span>
-      <span>Italy - Florence</span>
-      <span>Italy - Florence Ufizi</span>
-      <span>Italy - Florence to Venice</span>
-      <span>Italy - Merano Meran</span>
-      <span>Italy - Seceda</span>
-      <span>Italy - Venice</span>
-      <span>Germany - Berlin</span>
-      <span>Germany - Berlin Christmas Market</span>
-      <span>Germany - Berlin Central Station</span>
-      <span>Dresden</span>
-      <span>Dresden - Haxen</span>
-      <span>Prague</span>
-      <span>Prague - Castle</span>
-      <span>Prague</span>
-      <span>Prague - Christmas Market</span>
-      <span>Prague - Market</span>
-      <span>Prague - Prague1</span>
-      <span>Prague - Prague2</span>
-      <span>Prague - Reduta</span>
-      <span>Prague - Prague zoo</span>
-      <span>Prague - Christmas</span>
-      <span>Prague - Christmas Market</span>
-      <span>Prague - Zizkov</span>
-      <span>Prague - Prague Castle</span>
-      <span>Prague - Prague brewery</span>
-      <span>Prague - Domo</span>
-      <span>Prague - Domo Apartment</span>
-      <span>Korea</span>
       </>
     );
   }
